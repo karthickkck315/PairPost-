@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C039B708176C32ED00AE5B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039B707176C32ED00AE5B50 /* UIKit.framework */; };
+		C039B70A176C32ED00AE5B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039B709176C32ED00AE5B50 /* Foundation.framework */; };
+		C039B70C176C32ED00AE5B50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039B70B176C32ED00AE5B50 /* CoreGraphics.framework */; };
+		C039B712176C32ED00AE5B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C039B710176C32ED00AE5B50 /* InfoPlist.strings */; };
+		C039B714176C32ED00AE5B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C039B713176C32ED00AE5B50 /* main.m */; };
+		C039B718176C32ED00AE5B50 /* LoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C039B717176C32ED00AE5B50 /* LoginAppDelegate.m */; };
+		C039B71B176C32ED00AE5B50 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C039B719176C32ED00AE5B50 /* MainStoryboard.storyboard */; };
+		C039B71E176C32ED00AE5B50 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C039B71D176C32ED00AE5B50 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C039B703176C32ED00AE5B50 /* PairPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C039B707176C32ED00AE5B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C039B709176C32ED00AE5B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C039B70B176C32ED00AE5B50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C039B70F176C32ED00AE5B50 /* PairPost-Info.plist */ = {isa = PBXFileReference; path = "PairPost-Info.plist"; sourceTree = "<group>"; };
+		C039B711176C32ED00AE5B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C039B713176C32ED00AE5B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C039B715176C32ED00AE5B50 /* PairPost-Prefix.pch */ = {isa = PBXFileReference; path = "PairPost-Prefix.pch"; sourceTree = "<group>"; };
+		C039B716176C32ED00AE5B50 /* LoginAppDelegate.h */ = {isa = PBXFileReference; path = LoginAppDelegate.h; sourceTree = "<group>"; };
+		C039B717176C32ED00AE5B50 /* LoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAppDelegate.m; sourceTree = "<group>"; };
+		C039B71A176C32ED00AE5B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C039B71C176C32ED00AE5B50 /* LoginViewController.h */ = {isa = PBXFileReference; path = LoginViewController.h; sourceTree = "<group>"; };
+		C039B71D176C32ED00AE5B50 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C039B700176C32ED00AE5B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039B708176C32ED00AE5B50 /* UIKit.framework in Frameworks */,
+				C039B70A176C32ED00AE5B50 /* Foundation.framework in Frameworks */,
+				C039B70C176C32ED00AE5B50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C039B6F8176C32ED00AE5B50 = {
+			isa = PBXGroup;
+			children = (
+				C039B70D176C32ED00AE5B50 /* PairPost */,
+				C039B706176C32ED00AE5B50 /* Frameworks */,
+				C039B704176C32ED00AE5B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C039B704176C32ED00AE5B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C039B703176C32ED00AE5B50 /* PairPost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C039B706176C32ED00AE5B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C039B707176C32ED00AE5B50 /* UIKit.framework */,
+				C039B709176C32ED00AE5B50 /* Foundation.framework */,
+				C039B70B176C32ED00AE5B50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C039B70D176C32ED00AE5B50 /* PairPost */ = {
+			isa = PBXGroup;
+			children = (
+				C039B716176C32ED00AE5B50 /* LoginAppDelegate.h */,
+				C039B717176C32ED00AE5B50 /* LoginAppDelegate.m */,
+				C039B719176C32ED00AE5B50 /* MainStoryboard.storyboard */,
+				C039B71C176C32ED00AE5B50 /* LoginViewController.h */,
+				C039B71D176C32ED00AE5B50 /* LoginViewController.m */,
+				C039B70E176C32ED00AE5B50 /* Supporting Files */,
+			);
+			path = PairPost;
+			sourceTree = "<group>";
+		};
+		C039B70E176C32ED00AE5B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C039B70F176C32ED00AE5B50 /* PairPost-Info.plist */,
+				C039B710176C32ED00AE5B50 /* InfoPlist.strings */,
+				C039B713176C32ED00AE5B50 /* main.m */,
+				C039B715176C32ED00AE5B50 /* PairPost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C039B702176C32ED00AE5B50 /* PairPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C039B721176C32ED00AE5B50 /* Build configuration list for PBXNativeTarget "PairPost" */;
+			buildPhases = (
+				C039B6FF176C32ED00AE5B50 /* Sources */,
+				C039B700176C32ED00AE5B50 /* Frameworks */,
+				C039B701176C32ED00AE5B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PairPost;
+			productName = PairPost;
+			productReference = C039B703176C32ED00AE5B50 /* PairPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C039B6FA176C32ED00AE5B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Login;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "iamgovindaraj@hotmail.com";
+			};
+			buildConfigurationList = C039B6FD176C32ED00AE5B50 /* Build configuration list for PBXProject "PairPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C039B6F8176C32ED00AE5B50;
+			productRefGroup = C039B704176C32ED00AE5B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C039B702176C32ED00AE5B50 /* PairPost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C039B701176C32ED00AE5B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039B712176C32ED00AE5B50 /* InfoPlist.strings in Resources */,
+				C039B71B176C32ED00AE5B50 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C039B6FF176C32ED00AE5B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039B714176C32ED00AE5B50 /* main.m in Sources */,
+				C039B718176C32ED00AE5B50 /* LoginAppDelegate.m in Sources */,
+				C039B71E176C32ED00AE5B50 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C039B710176C32ED00AE5B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C039B711176C32ED00AE5B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C039B719176C32ED00AE5B50 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C039B71A176C32ED00AE5B50 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C039B71F176C32ED00AE5B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C039B720176C32ED00AE5B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C039B722176C32ED00AE5B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PairPost/PairPost-Prefix.pch";
+				INFOPLIST_FILE = "PairPost/PairPost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C039B723176C32ED00AE5B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PairPost/PairPost-Prefix.pch";
+				INFOPLIST_FILE = "PairPost/PairPost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C039B6FD176C32ED00AE5B50 /* Build configuration list for PBXProject "PairPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C039B71F176C32ED00AE5B50 /* Debug */,
+				C039B720176C32ED00AE5B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C039B721176C32ED00AE5B50 /* Build configuration list for PBXNativeTarget "PairPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C039B722176C32ED00AE5B50 /* Debug */,
+				C039B723176C32ED00AE5B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C039B6FA176C32ED00AE5B50 /* Project object */;
+}
